@@ -53,10 +53,10 @@
 }
 
 .dark {
-  background: url("./img/bg1.png");
+  background: url("./images/bg1.png");
 }
 .purple {
-  background: #d72638 url("./img/bg2.png");
+  background: #d72638 url("./images//bg2.png");
 }
 
 .jobTitle {
@@ -152,6 +152,7 @@
 }
 
 .projectButton {
+  text-decoration: none;
   padding: 10px 20px;
   background-color: transparent;
   border: 2px solid #555;
@@ -181,6 +182,8 @@
 }
 
 .seeMore {
+  text-decoration: none;
+  font-size: 32px;
   padding: 20px 40px;
   margin: 10vh auto;
   margin-bottom: 25vh;

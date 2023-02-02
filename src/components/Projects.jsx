@@ -17,7 +17,9 @@ const Projects = () => {
       }px))`;
       projects[1].style.transform = `translateX(calc(-510vh + ${offsetY}px))`;
       projects[2].style.transform = `translateX(calc(590vh - ${offsetY}px))`;
-      contactMe.style.transform = `translateY(calc(${offsetY * -0.4}px + 285vh))`;
+      contactMe.style.transform = `translateY(calc(${
+        offsetY * -0.4
+      }px + 285vh))`;
     });
   }, []);
 
@@ -37,7 +39,7 @@ const Projects = () => {
             repudiandae quia natus et iste earum ab fugiat eum ipsam, illum
             vitae nihil quasi recusandae?
           </p>
-          <button className="projectButton">Learn More</button>
+          <a href="" className="projectButton">Learn More</a>
         </div>
         <div>
           <img
@@ -61,7 +63,7 @@ const Projects = () => {
             repudiandae quia natus et iste earum ab fugiat eum ipsam, illum
             vitae nihil quasi recusandae?
           </p>
-          <button className="projectButton">Learn More</button>
+          <a href="https://hyago-nsa.github.io/project-dinossaur-game/" className="projectButton">Learn More</a>
         </div>
         <div>
           <img
@@ -85,7 +87,7 @@ const Projects = () => {
             repudiandae quia natus et iste earum ab fugiat eum ipsam, illum
             vitae nihil quasi recusandae?
           </p>
-          <button className="projectButton">Learn More</button>
+          <a href="" className="projectButton">Learn More</a>
         </div>
         <div>
           <img
@@ -95,7 +97,11 @@ const Projects = () => {
           />
         </div>
       </div>
-      <h1 className="seeMore">See more</h1>
+
+      <a className="seeMore" href="https://github.com/Hyago-nsa">
+        See more
+      </a>
+
       <div className="contactme">
         <h1>Contact me</h1>
       </div>
