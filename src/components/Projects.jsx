@@ -28,11 +28,12 @@ const Projects = () => {
       <h1 className="projectsTitle">Here are some of my projects</h1>
       <div className="project">
         <div className="projectDetail">
-          <h1 className="projectTitle">Titulo</h1>
+          <h1 className="projectTitle">Pokedex</h1>
           <div className="project-main-box">
-            <div className="project-box">CSS</div>
-            <div className="project-box">HTML</div>
+
             <div className="project-box">JavaScript</div>
+            <div className="project-box">React.js</div>
+
           </div>
           <p className="projectDesc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
@@ -44,7 +45,7 @@ const Projects = () => {
         <div>
           <img
             className="projectImage"
-            src="src\images\project-dino.png"
+            src="src\images\project-pokedex.png"
             alt=""
           />
         </div>
@@ -53,7 +54,6 @@ const Projects = () => {
         <div className="projectDetail">
           <h1 className="projectTitle">Dino Game</h1>
           <div className="project-main-box">
-            <div className="project-box">Game</div>
             <div className="project-box">CSS</div>
             <div className="project-box">HTML</div>
             <div className="project-box">JavaScript</div>
