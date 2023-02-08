@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import projectDino from "../images/project-dino.png"
+import projectPokedex from "../images/project-pokedex.png"
 
 const Projects = () => {
   useEffect(() => {
@@ -40,12 +42,12 @@ const Projects = () => {
             repudiandae quia natus et iste earum ab fugiat eum ipsam, illum
             vitae nihil quasi recusandae?
           </p>
-          <a href="" className="projectButton">Learn More</a>
+          <a href="https://hyago-nsa.github.io/project-pokedex/" className="projectButton">Learn More</a>
         </div>
         <div>
           <img
             className="projectImage"
-            src="src\images\project-pokedex.png"
+            src={projectPokedex}
             alt=""
           />
         </div>
@@ -68,7 +70,7 @@ const Projects = () => {
         <div>
           <img
             className="projectImage"
-            src="src\images\project-dino.png"
+            src={projectDino}
             alt=""
             style={{ marginLeft: "5vw" }}
           />
@@ -92,7 +94,7 @@ const Projects = () => {
         <div>
           <img
             className="projectImage"
-            src="src\images\project-dino.png"
+            src={projectDino}
             alt=""
           />
         </div>
