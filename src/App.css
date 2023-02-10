@@ -90,7 +90,6 @@
   align-items: center;
   gap: 100px;
   height: 70vh;
-  overflow: hidden;
 }
 
 .project:nth-child(2n) {
@@ -130,6 +129,8 @@
 }
 
 .projectTitle {
+  text-align: center;
+  align-items: center;
   font-size: 5vw;
   color: #d72638;
 }
@@ -253,6 +254,7 @@
   background: linear-gradient(#1e1b18 50%, #d72638 50%);
   height: 100vh;
   display: flex;
+  margin: auto;
   text-align: center;
   align-items: center;
   overflow: hidden;
@@ -263,9 +265,6 @@
   margin: auto;
   overflow: hidden;
   display: flex;
-  justify-content: space-between;
-
-  width: 80vw;
 }
 
 .contactSplit {
@@ -329,30 +328,33 @@
   overflow: hidden;
 }
 
-.footer-socialmedia {
+.footer-socialmedia {justify-content: space-around;
   cursor: default;
-  gap: 20px;
-  margin-left: 31%;
-  margin-right: 31%;
-  width: 100%;
-  height: 100%;
+  gap: 10%;
   display: flex;
+
+  margin: auto;
 }
 
 .socialmedia {
   transition: 0.2s all;
   font-size: 20px;
+  padding: 5px;
   margin: auto;
   color: #1e1b18;
-  padding: 15px 15px;
   background-color: transparent;
-  border: 3px solid #333;
+  border: 2px solid #333;
+  border-radius: 20%;
 }
 
 .socialmedia:hover {
   transition: 0.2s all;
   background-color: white;
   cursor: pointer;
+}
+
+.footer-icon {
+  max-width: 58px;
 }
 
 @media screen and (max-width: 1024px) {

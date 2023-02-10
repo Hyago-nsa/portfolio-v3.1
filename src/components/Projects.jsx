@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import projectDino from "../images/project-dino.png"
 import projectPokedex from "../images/project-pokedex.png"
+import projectYoutube from "../images/project-youtube.png"
 
 const Projects = () => {
   useEffect(() => {
@@ -17,7 +18,7 @@ const Projects = () => {
       projects[0].style.transform = `translateX(calc(225vh - ${
         offsetY * 0.5
       }px))`;
-      projects[1].style.transform = `translateX(calc(-510vh + ${offsetY}px))`;
+      projects[1].style.transform = `translateX(calc(-530vh + ${offsetY}px))`;
       projects[2].style.transform = `translateX(calc(590vh - ${offsetY}px))`;
       contactMe.style.transform = `translateY(calc(${
         offsetY * -0.4
@@ -78,23 +79,23 @@ const Projects = () => {
       </div>
       <div className="project">
         <div className="projectDetail">
-          <h1 className="projectTitle">Titulo</h1>
+          <h1 className="projectTitle">Youtube Clone</h1>
           <div className="project-main-box">
-            <div className="project-box">CSS</div>
-            <div className="project-box">HTML</div>
             <div className="project-box">JavaScript</div>
+            <div className="project-box">React.js</div>
+            <div className="project-box">Next.js</div>
           </div>
           <p className="projectDesc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
             repudiandae quia natus et iste earum ab fugiat eum ipsam, illum
             vitae nihil quasi recusandae?
           </p>
-          <a href="" className="projectButton">Learn More</a>
+          <a href="https://hyago-nsa.github.io/project-youtube-clone" className="projectButton">Learn More</a>
         </div>
         <div>
           <img
             className="projectImage"
-            src={projectDino}
+            src={projectYoutube}
             alt=""
           />
         </div>
