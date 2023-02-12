@@ -5,6 +5,10 @@
   letter-spacing: -1px;
 }
 
+textarea:focus, input:focus{
+  outline: none;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -303,21 +307,21 @@
 .ContactBtn {
   border: none;
   font-size: 2rem;
-  border: 3px solid #333;
+  border: 2px solid #333;
   color: white;
   background-color: #1e1b18;
   width: 100%;
   margin: 0.7rem 0;
   padding: 1.2rem 1.4rem;
-  transition: all 0.1s;
+  transition: all 0.2s;
 }
 
 .ContactBtn:hover {
   cursor: pointer;
-  border: black 3px solid;
+  border: #1e1b18 2px solid;
   background-color: white;
   color: #333;
-  transition: all 0.1s;
+  transition: all 0.2s;
 }
 
 .footerContainer {
@@ -339,19 +343,12 @@
 
 .socialmedia {
   transition: 0.2s all;
-  font-size: 20px;
-  padding: 5px;
-  margin: auto;
-  color: #1e1b18;
-  background-color: transparent;
-  border: 2px solid #333;
-  border-radius: 20%;
 }
 
 .socialmedia:hover {
   transition: 0.2s all;
-  background-color: white;
   cursor: pointer;
+  transform: scale(110%);
 }
 
 .footer-icon {
