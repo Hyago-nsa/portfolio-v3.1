@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import projectDino from "../images/project-dino.png"
-import projectPokedex from "../images/project-pokedex.png"
-import projectYoutube from "../images/project-youtube.png"
+import projectDino from "../images/project-dino.png";
+import projectPokedex from "../images/project-pokedex.png";
+import projectYoutube from "../images/project-youtube.png";
 
 const Projects = () => {
   useEffect(() => {
@@ -33,24 +33,23 @@ const Projects = () => {
         <div className="projectDetail">
           <h1 className="projectTitle">Pokedex</h1>
           <div className="project-main-box">
-
             <div className="project-box">JavaScript</div>
             <div className="project-box">React.js</div>
-
           </div>
           <p className="projectDesc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            repudiandae quia natus et iste earum ab fugiat eum ipsam, illum
-            vitae nihil quasi recusandae?
+            Project created and developed taking inspiration from the pokedex of
+            the Pokemon anime, where the user is able to browse and search for
+            the desired pokemons.
           </p>
-          <a href="https://hyago-nsa.github.io/project-pokedex/" className="projectButton">Learn More</a>
+          <a
+            href="https://hyago-nsa.github.io/project-pokedex/"
+            className="projectButton"
+          >
+            Learn More
+          </a>
         </div>
         <div>
-          <img
-            className="projectImage"
-            src={projectPokedex}
-            alt=""
-          />
+          <img className="projectImage" src={projectPokedex} alt="" />
         </div>
       </div>
       <div className="project">
@@ -62,11 +61,16 @@ const Projects = () => {
             <div className="project-box">JavaScript</div>
           </div>
           <p className="projectDesc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            repudiandae quia natus et iste earum ab fugiat eum ipsam, illum
-            vitae nihil quasi recusandae?
+            Project inspired by the dinosaur game in the google chrome browser
+            when you run out of internet access where the main objective is to
+            survive is to survive as long as possible.
           </p>
-          <a href="https://hyago-nsa.github.io/project-dinossaur-game/" className="projectButton">Learn More</a>
+          <a
+            href="https://hyago-nsa.github.io/project-dinossaur-game/"
+            className="projectButton"
+          >
+            Learn More
+          </a>
         </div>
         <div>
           <img
@@ -86,18 +90,19 @@ const Projects = () => {
             <div className="project-box">Next.js</div>
           </div>
           <p className="projectDesc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            repudiandae quia natus et iste earum ab fugiat eum ipsam, illum
-            vitae nihil quasi recusandae?
+            A clone of the renowned Youtube app capable of playing and searching
+            a variety of videos from comedy to education and politics! Just like
+            Youtube!
           </p>
-          <a href="https://hyago-nsa.github.io/project-youtube-clone" className="projectButton">Learn More</a>
+          <a
+            href="https://hyago-nsa.github.io/project-youtube-clone"
+            className="projectButton"
+          >
+            Learn More
+          </a>
         </div>
         <div>
-          <img
-            className="projectImage"
-            src={projectYoutube}
-            alt=""
-          />
+          <img className="projectImage" src={projectYoutube} alt="" />
         </div>
       </div>
 
