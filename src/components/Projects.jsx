@@ -37,9 +37,9 @@ const Projects = () => {
             <div className="project-box">React.js</div>
           </div>
           <p className="projectDesc">
-            Project created and developed taking inspiration from the pokedex of
-            the Pokemon anime, where the user is able to browse and search for
-            the desired pokemons.
+            Project created and developed inspired by the pokédex of the Pokémon
+            anime, where the user can browse and search the desired pokemons.
+            Really fun project to do using API.
           </p>
           <a
             href="https://hyago-nsa.github.io/project-pokedex/"
@@ -62,8 +62,9 @@ const Projects = () => {
           </div>
           <p className="projectDesc">
             Project inspired by the dinosaur game in the google chrome browser
-            when you run out of internet access where the main objective is to
-            survive is to survive as long as possible.
+            that can be accessed when you run out of internet access. The main
+            objective is to survive as long as possible without bumping into the
+            cacti!
           </p>
           <a
             href="https://hyago-nsa.github.io/project-dinossaur-game/"
@@ -91,8 +92,8 @@ const Projects = () => {
           </div>
           <p className="projectDesc">
             A clone of the renowned Youtube app capable of playing and searching
-            a variety of videos from comedy to education and politics! Just like
-            Youtube!
+            a variety of videos, from comedy to education and politics! Just
+            like YouTube!
           </p>
           <a
             href="https://hyago-nsa.github.io/project-youtube-clone"

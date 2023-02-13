@@ -5,7 +5,8 @@
   letter-spacing: -1px;
 }
 
-textarea:focus, input:focus{
+textarea:focus,
+input:focus {
   outline: none;
 }
 
@@ -30,7 +31,7 @@ textarea:focus, input:focus{
 }
 
 .saluteText {
-  color: #d72638;
+  color: #eb1c31;
   font-size: 12vw;
   cursor: default;
 }
@@ -41,7 +42,7 @@ textarea:focus, input:focus{
 
 .nameContainer {
   height: 100vh;
-  background-color: #d72638;
+  background-color: #eb1c31;
 }
 
 .name {
@@ -58,15 +59,18 @@ textarea:focus, input:focus{
 
 .dark {
   background: url("./images/bg1.png");
+  filter: hue-rotate(79deg) brightness(150%) contrast(120%);
 }
 .purple {
-  background: #d72638 url("./images//bg2.png");
+  background: #eb1c31 url("./images//bg2.png");
 }
 
 .jobTitle {
+  filter: hue-rotate(-79deg) brightness(70%) contrast(85%);
+
   width: 200vw;
   font-size: 3vw;
-  color: #d72638;
+  color: #eb1c31;
   line-height: 100vh;
   cursor: default;
 }
@@ -85,7 +89,7 @@ textarea:focus, input:focus{
   margin-bottom: 50vh;
   text-align: center;
   font-size: 6vw;
-  color: #d72638;
+  color: #eb1c31;
 }
 
 .project {
@@ -136,7 +140,7 @@ textarea:focus, input:focus{
   text-align: center;
   align-items: center;
   font-size: 5vw;
-  color: #d72638;
+  color: #eb1c31;
 }
 
 .projectDesc {
@@ -162,7 +166,7 @@ textarea:focus, input:focus{
   padding: 10px 20px;
   background-color: transparent;
   border: 2px solid #555;
-  color: #d72638;
+  color: #eb1c31;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -179,7 +183,7 @@ textarea:focus, input:focus{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #d72638;
+  background-color: #eb1c31;
   color: #333;
 }
 
@@ -195,7 +199,7 @@ textarea:focus, input:focus{
   margin-bottom: 25vh;
   background-color: transparent;
   border: 2px solid #555;
-  color: #d72638;
+  color: #eb1c31;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -212,7 +216,7 @@ textarea:focus, input:focus{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #d72638;
+  background-color: #eb1c31;
   color: #333;
 }
 
@@ -229,14 +233,14 @@ textarea:focus, input:focus{
   padding: 10px 20px;
   background-color: transparent;
   border: 2px solid #555;
-  color: #d72638;
+  color: #eb1c31;
   transition: 0.2s all;
   cursor: default;
 }
 
 .project-box:hover {
   transition: 0.2s all;
-  background-color: #d72638;
+  background-color: #eb1c31;
   color: #333;
 }
 
@@ -255,7 +259,7 @@ textarea:focus, input:focus{
 }
 
 .contactContainer {
-  background: linear-gradient(#1e1b18 50%, #d72638 50%);
+  background: linear-gradient(#1e1b18 50%, #eb1c31 50%);
   height: 100vh;
   display: flex;
   margin: auto;
@@ -280,7 +284,7 @@ textarea:focus, input:focus{
   text-align: center;
   margin-bottom: 20vh;
   margin-top: 20vh;
-  color: #d72638;
+  color: #eb1c31;
   font-size: 3rem;
   width: 100%;
 }
@@ -325,7 +329,7 @@ textarea:focus, input:focus{
 }
 
 .footerContainer {
-  background-color: #d72638;
+  background-color: #eb1c31;
   height: 10vh;
   display: flex;
   align-items: center;
