@@ -19,7 +19,7 @@ const Projects = () => {
         offsetY * 0.5
       }px))`;
       projects[1].style.transform = `translateX(calc(-530vh + ${offsetY}px))`;
-      projects[2].style.transform = `translateX(calc(590vh - ${offsetY}px))`;
+      projects[2].style.transform = `translateX(calc(610vh - ${offsetY}px))`;
       contactMe.style.transform = `translateY(calc(${
         offsetY * -0.4
       }px + 285vh))`;
